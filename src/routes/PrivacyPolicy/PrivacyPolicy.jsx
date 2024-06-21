@@ -3,7 +3,7 @@ import React from 'react'
 const PrivacyPolicy = () => {
     return (
         <div
-            className='bg-white p-[1em]'>
+            className='bg-white container pb-5 pt-[12vh] flex flex-col gap-3'>
 
             <strong>Privacy Policy</strong>
              <p>

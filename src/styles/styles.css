@@ -1,13 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* Description: Master CSS file */
 
 /*****************************************
@@ -778,7 +768,8 @@ input[type="checkbox"] {
 .cards-2 {
     position: relative;
     padding-top: 8rem;
-    background: linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)), url("../images/pricing-background.jpg") center center no-repeat;
+    background: linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)), url("../assets/pricing-background.jpg") center center no-repeat;
+    background-blend-mode: multiply;
     background-size: cover;
     text-align: center;
 }
@@ -1028,6 +1019,7 @@ a:hover.back-to-top {
     .navbar.top-nav-collapse {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
+        background-color: #f1f9fc;
     }
 
     .offcanvas-collapse {
